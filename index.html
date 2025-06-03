@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Simple Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" onclick="navigate('home')">Home</a></li>
+        <li><a href="#about" onclick="navigate('about')">About</a></li>
+        <li><a href="#contact" onclick="navigate('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="content-section active">
+      <h2>Home</h2>
+      <p>This is the homepage.</p>
+    </section>
+
+    <section id="about" class="content-section">
+      <h2>About</h2>
+      <p>This website is built with HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p>Email: example@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
